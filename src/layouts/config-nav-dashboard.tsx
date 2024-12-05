@@ -11,28 +11,29 @@ export const navData = [
   {
     title: 'Dashboard',
     path: '/',
-    icon: icon('ic-analytics'),
+    icon: icon('ic-cart'),
   },
   {
-    title: 'User',
+    title: 'Timecards',
+    path: '/blog',
+    icon: icon('ic-blog'),
+  },
+  {
+    title: 'Employees',
     path: '/user',
     icon: icon('ic-user'),
   },
   {
-    title: 'Product',
+    title: 'Reports',
     path: '/products',
     icon: icon('ic-cart'),
     info: (
-      <Label color="error" variant="inverted">
+      <Label color="success" variant="inverted">
         +3
       </Label>
     ),
   },
-  {
-    title: 'Blog',
-    path: '/blog',
-    icon: icon('ic-blog'),
-  },
+  
   {
     title: 'Sign in',
     path: '/sign-in',
