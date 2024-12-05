@@ -19,4 +19,10 @@ export const _workspaces = [
     logo: `/assets/icons/workspaces/logo-3.webp`,
     plan: 'Pro',
   },
+  {
+    id: 'team-4',
+    name: 'Team 4',
+    logo: `/assets/icons/workspaces/logo-3.webp`,
+    plan: 'Free',
+  },
 ];
